@@ -1,0 +1,26 @@
+# Build
+build/
+build-*/
+cmake-build-*/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results (generated)
+results/*.csv
+results/*.png
+results/*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
